@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ssm_web:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ab983fc0-f8f8-405e-80c0-fe4a054e85d6" name="Default Changelist" comment="添加一个类：Test ，第二次提交">
+      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/lagou_edu_home_parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edu_parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edu_parent.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edu_parent.iws" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/target/classes/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/target/classes/applicationContext_dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/target/classes/com/edu/dao/CourseContentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/target/classes/com/edu/dao/CourseContentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/target/classes/com/edu/dao/CourseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/target/classes/com/edu/dao/CourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/target/classes/com/edu/dao/MenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/target/classes/com/edu/dao/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/target/classes/com/edu/dao/PromotionAdMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/target/classes/com/edu/dao/PromotionAdMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/target/classes/com/edu/dao/PromotionSpaceMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/target/classes/com/edu/dao/PromotionSpaceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/target/classes/com/edu/dao/ResourceCategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/target/classes/com/edu/dao/ResourceCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/target/classes/com/edu/dao/ResourceMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/target/classes/com/edu/dao/ResourceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/target/classes/com/edu/dao/RoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/target/classes/com/edu/dao/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/target/classes/com/edu/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/target/classes/com/edu/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/target/classes/filter/development.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/target/classes/filter/product.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/target/test-classes/com/edu/dao/TestRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/target/test-classes/com/edu/dao/TestUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/target/classes/com/edu/domain/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/target/classes/com/edu/domain/CourseLesson.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/target/classes/com/edu/domain/CourseMedia.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/target/classes/com/edu/domain/CourseSection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/target/classes/com/edu/domain/CourseVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/target/classes/com/edu/domain/Menu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/target/classes/com/edu/domain/MenuVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/target/classes/com/edu/domain/PromotionAd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/target/classes/com/edu/domain/PromotionAdVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/target/classes/com/edu/domain/PromotionSpace.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/target/classes/com/edu/domain/Resource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/target/classes/com/edu/domain/ResourceCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/target/classes/com/edu/domain/ResourceVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/target/classes/com/edu/domain/ResponseResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/target/classes/com/edu/domain/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/target/classes/com/edu/domain/RoleMenuVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/target/classes/com/edu/domain/RoleResourceRelation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/target/classes/com/edu/domain/RoleResourceVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/target/classes/com/edu/domain/RoleVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/target/classes/com/edu/domain/Role_menu_relation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/target/classes/com/edu/domain/Teacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/target/classes/com/edu/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/target/classes/com/edu/domain/UserVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/target/classes/com/edu/domain/User_Role_relation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/target/classes/applicationContext_service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/target/classes/com/edu/service/CourseContentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/target/classes/com/edu/service/CourseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/target/classes/com/edu/service/MenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/target/classes/com/edu/service/PromotionAdService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/target/classes/com/edu/service/PromotionSpaceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/target/classes/com/edu/service/ResourceCategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/target/classes/com/edu/service/ResourceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/target/classes/com/edu/service/RoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/target/classes/com/edu/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/target/classes/com/edu/service/impl/CourseContentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/target/classes/com/edu/service/impl/CourseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/target/classes/com/edu/service/impl/MenuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/target/classes/com/edu/service/impl/PromotionAdServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/target/classes/com/edu/service/impl/PromotionSpaceServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/target/classes/com/edu/service/impl/ResourceCategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/target/classes/com/edu/service/impl/ResourceServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/target/classes/com/edu/service/impl/RoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/target/classes/com/edu/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/target/test-classes/com/edu/test1/Test01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/classes/com/edu/controller/CourseContentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/classes/com/edu/controller/CourseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/classes/com/edu/controller/MenuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/classes/com/edu/controller/PromotionAdController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/classes/com/edu/controller/PromotionSpaceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/classes/com/edu/controller/ResourceCategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/classes/com/edu/controller/ResourceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/classes/com/edu/controller/RoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/classes/com/edu/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/classes/com/edu/controller/CourseContentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/classes/com/edu/controller/CourseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/classes/com/edu/controller/MenuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/classes/com/edu/controller/PromotionAdController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/classes/com/edu/controller/PromotionSpaceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/classes/com/edu/controller/ResourceCategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/classes/com/edu/controller/ResourceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/classes/com/edu/controller/RoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/classes/com/edu/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/cors-filter-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/druid-1.1.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/java-property-utils-1.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-0.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-4.1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/spring-test-5.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/ssm_dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/ssm_domain-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/ssm_service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_service/src/main/java/com/edu/service/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_utils/ssm_utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_utils/ssm_utils.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/ssm_domain/target/" />
+    <ignored path="$PROJECT_DIR$/ssm_utils/target/" />
+    <ignored path="$PROJECT_DIR$/ssm_web/target/" />
+    <ignored path="$PROJECT_DIR$/ssm_service/target/" />
+    <ignored path="$PROJECT_DIR$/ssm_dao/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_dao/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_domain/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_service/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_utils/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_dao/src/test/java/com/edu/dao/TestRoleMapper.java" />
+        <option value="$PROJECT_DIR$/ssm_dao/src/main/resources/applicationContext_dao.xml" />
+        <option value="$PROJECT_DIR$/ssm_dao/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/ssm_dao/src/main/resources/filter/development.properties" />
+        <option value="$PROJECT_DIR$/ssm_dao/src/main/resources/filter/product.properties" />
+        <option value="$PROJECT_DIR$/ssm_service/src/main/resources/applicationContext_service.xml" />
+        <option value="$PROJECT_DIR$/ssm_service/src/test/java/com/edu/test1/Test01.java" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/java/com/edu/controller/RoleController.java" />
+        <option value="$PROJECT_DIR$/ssm_dao/src/main/java/com/edu/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/ssm_dao/src/main/java/com/edu/dao/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/java/com/edu/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/ssm_service/src/main/java/com/edu/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ssm_service/src/main/java/com/edu/service/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ssm_service/src/main/java/com/edu/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/ssm_web/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_service/src/main/java/com/edu/service/Test.java" />
+        <option value="$PROJECT_DIR$/ssm_domain/src/main/java/com/edu/domain/Test.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/JavaServer/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="$USER_HOME$/JavaServer/apache-maven-3.5.0/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="710" />
+    <option name="y" value="234" />
+    <option name="width" value="1591" />
+    <option name="height" value="893" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15004262" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.0.42" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.42" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ssm-web/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ssm_web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ssm-web" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_edu_parent_2" />
+        <option name="HTTP_PORT" value="8080" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54299" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssm_web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab983fc0-f8f8-405e-80c0-fe4a054e85d6" name="Default Changelist" comment="" />
+      <created>1653970906163</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653970906163</updated>
+      <workItem from="1653970909623" duration="6319000" />
+      <workItem from="1654148743401" duration="3552000" />
+      <workItem from="1654587275428" duration="481000" />
+      <workItem from="1654587787248" duration="5000" />
+      <workItem from="1654593308014" duration="2474000" />
+    </task>
+    <task id="LOCAL-00001" summary="初始化项目">
+      <created>1654587670644</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654587670645</updated>
+    </task>
+    <task id="LOCAL-00002" summary="初始化项目，第一次提交">
+      <created>1654593973324</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654593973324</updated>
+    </task>
+    <task id="LOCAL-00003" summary="添加一个类：Test ，第二次提交">
+      <created>1654594161175</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654594161175</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12831000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="710" y="234" width="1591" height="893" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17947063" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.61256546" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3293556" />
+      <window_info anchor="bottom" id="Analysis" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32984293" />
+      <window_info anchor="bottom" id="Tail" order="14" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Database Changes" order="16" />
+      <window_info anchor="bottom" id="Version Control" order="17" weight="0.32984293" />
+      <window_info anchor="bottom" id="Messages" order="18" weight="0.3293556" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Mybatis datasource" order="6" side_tool="true" />
+      <window_info anchor="right" id="Word Book" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Codota" order="11" />
+      <window_info anchor="right" id="RestServices" order="12" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化项目" />
+    <MESSAGE value="初始化项目，第一次提交" />
+    <MESSAGE value="添加一个类：Test ，第二次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加一个类：Test ，第二次提交" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ssm_dao/src/test/java/com/edu/dao/TestRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-83">
+          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_dao/src/test/java/com/edu/dao/TestUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_dao/src/main/resources/filter/product.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_dao/src/main/resources/filter/development.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_dao/src/main/resources/com/edu/dao/CourseContentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2135" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_dao/src/main/resources/com/edu/dao/CourseMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_domain/src/main/java/com/edu/domain/CourseVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_domain/src/main/java/com/edu/domain/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_domain/src/main/java/com/edu/domain/ResourceVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_domain/src/main/java/com/edu/domain/ResponseResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_domain/src/main/java/com/edu/domain/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_domain/src/main/java/com/edu/domain/Role_menu_relation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_domain/src/main/java/com/edu/domain/RoleMenuVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_domain/src/main/java/com/edu/domain/RoleVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_service/src/main/java/com/edu/service/impl/CourseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_service/src/main/java/com/edu/service/impl/PromotionAdServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_service/src/test/java/com/edu/test1/Test01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/java/com/edu/controller/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-724">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/java/com/edu/controller/PromotionAdController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2016">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/java/com/edu/controller/PromotionSpaceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-401">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/java/com/edu/controller/ResourceCategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_dao/src/main/java/com/edu/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/java/com/edu/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1603">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/java/com/edu/controller/ResourceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_dao/src/main/java/com/edu/dao/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_dao/src/main/java/com/edu/dao/CourseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_dao/src/main/java/com/edu/dao/MenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_dao/src/main/java/com/edu/dao/PromotionAdMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_dao/src/main/java/com/edu/dao/PromotionSpaceMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_dao/src/main/java/com/edu/dao/ResourceCategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_dao/src/main/java/com/edu/dao/ResourceMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/java/com/edu/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1413">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_service/src/main/java/com/edu/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_service/src/main/java/com/edu/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_service/src/main/java/com/edu/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/java/com/edu/controller/CourseContentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_dao/src/main/resources/applicationContext_dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="54" selection-end-line="49" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_dao/src/main/resources/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_dao/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_service/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="38" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_service/src/main/resources/applicationContext_service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_service/src/main/java/com/edu/service/CourseContentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_service/src/main/java/com/edu/service/impl/CourseContentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="45" column="67" lean-forward="true" selection-start-line="45" selection-start-column="67" selection-end-line="45" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="39" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/java/com/edu/controller/CourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_service/src/main/java/com/edu/service/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_dao/src/main/java/com/edu/dao/CourseContentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_domain/src/main/java/com/edu/domain/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ssm_utils</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.104931794" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
